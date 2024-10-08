@@ -9,8 +9,11 @@ repository = "https://github.com/djc/bb8"
 workspace = ".."
 readme = "../README.md"
 
+[build-dependencies]
+portable-atomic = "1.9.0"
+
 [dependencies]
-portable-atomic = "=0.3.0"
+portable-atomic = "1.9.0"
 async-trait = "0.1"
 futures-util = { version = "0.3.2", default-features = false, features = ["alloc"] }
 parking_lot = { version = "0.12", optional = true }
