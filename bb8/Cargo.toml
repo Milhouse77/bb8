@@ -10,7 +10,7 @@ workspace = ".."
 readme = "../README.md"
 
 [build-dependencies]
-portable-atomic = "1.9.0"
+portable-atomic-build = "1.9.0"
 
 [dependencies]
 portable-atomic = "1.9.0"
